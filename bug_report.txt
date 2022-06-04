@@ -1,0 +1,52 @@
+QA Course by Vadim Ksendzov
+Group_30_QA
+
+GIT homework 2
+Environment: Windows 10, Notepad++
+
+Telegram: @maks_tbat
+Location: Minsk, Belarus
+
+
+EDUCATIONAL_BUG_REPORT:
+
+Bug_ID: 66
+
+
+Title: Widgets created through "Desktop Settings" are similar, but the information is displayed differently
+
+
+Severity: Trivial
+
+Priority: Low
+
+Environment: Samsung SM-G955FD, S8 Plus, Android 9, One UI v. 1.0, firmware G955FXXUCDUD1
+
+Precondition: Install the AndroidGridTest application
+
+
+Steps to reproduce (STR): 
+
+0. Сreate several different widgets on a screen of the phone.
+
+1. Choose a phone screen with free space and long tap on it.
+
+2. Select the "Widgets" button at the bottom of the phone screen.
+
+3. Find the "AndroidGridTest" block on the phone screen by swiping left and right as needed and tap the appropriate icon.
+
+4. Select any shortcut from the list of widgets in the window that apears and tap the "Add" option.
+
+5. Repeat steps 1 to 4 to create several different widgets.
+
+6. Stretch the created widgets in width and length.
+
+7. Compare the results.
+
+ 
+Actual Result (AR): Some widgets display 4 cryptocurrencies after stretching, others display 5 cryptocurrencies.
+
+Expected Result (ER): All widgets display the same number of cryptocurrencies after stretching.
+
+
+Attachments: https://drive.google.com/urlforexample
